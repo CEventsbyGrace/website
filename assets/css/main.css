@@ -1,4 +1,4 @@
-/**
+﻿/**
 * Template Name: Yummy
 * Updated: May 30 2023 with Bootstrap v5.3.0
 * Template URL: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/
@@ -282,11 +282,11 @@ main {
 }
 
 .header .logo h1 {
-  font-size: 28px;
-  font-weight: 700;
-  color: #000;
-  margin: 0;
-  font-family: var(--font-secondary);
+	font-size: 40px;
+	font-weight: 400;
+	color: #000;
+	margin: 0;
+	font-family: "Brush Script MT";
 }
 
 .header .logo h1 span {
@@ -295,13 +295,14 @@ main {
 
 .header .btn-book-a-table,
 .header .btn-book-a-table:focus {
-  font-size: 14px;
-  color: #fff;
-  background: var(--color-primary);
-  padding: 8px 20px;
-  margin-left: 30px;
-  border-radius: 50px;
-  transition: 0.3s;
+	font-size: 14px;
+	font: normal normal bold 100% serif;
+	color: #fff;
+	background: var(--color-primary);
+	padding: 8px 20px;
+	margin-left: 30px;
+	border-radius: 50px;
+	transition: 0.3s;
 }
 
 .header .btn-book-a-table:hover,
