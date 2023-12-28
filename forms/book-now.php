@@ -18,17 +18,17 @@
   $book_a_table = new PHP_Email_Form;
   $book_a_table->ajax = true;
   
-  $book_a_table->to = $receiving_email_address;
-  $book_a_table->from_name = $_POST['name'];
-  $book_a_table->from_email = $_POST['email'];
-  $book_a_table->subject = "New table booking request from the website";
+  $book_a_table->to = creativeeventsbygrace@gmail.com;
+  $book_a_table->from_name = $_POST['Grace'];
+  $book_a_table->from_email = $_POST['creativeeventsbygrace@gmail.com'];
+  $book_a_table->subject = "Event booking & Inquiries";
 
   // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
   /*
   $book_a_table->smtp = array(
-    'host' => 'example.com',
-    'username' => 'example',
-    'password' => 'pass',
+    'host' => 'sl://smtp.gmail.com',
+    'username' => 'creativeeventsbygrace@gmail.com',
+    'password' => '@Events7',
     'port' => '587'
   );
   */
